@@ -760,8 +760,8 @@ settings:
   --default-font: Letters for Learners;
   --preview-font: Letters for Learners;
   --editor-font: Letters for Learners;
-  --header-font-pre: Goldie Rainbow;
-  --header-font-ed: Goldie Rainbow;
+  --header-font-pre: Deirma;
+  --header-font-ed: Deirma;
   --mermaid-font: Letters for Learners;
 
   --base-h: 205;
@@ -773,9 +773,9 @@ settings:
   --d-accent-s: 100%;
   --d-accent-l: 90%;
 
-  --l-accent-h: 272;
-  --l-accent-s: 100%;
-  --l-accent-l: 84%;
+  --l-accent-h: 202;
+  --l-accent-s: 62%;
+  --l-accent-l: 81%;
 
   --custom-line-indent: 40px;
   --custom-pre-line-thickness: 1px;
@@ -843,7 +843,7 @@ BASE COLORS
   --light4: #f9fafb;
   --light5: #eff1f5;
 
-  --frost0: #e69ca2;
+  --frost0: #97555b;
   --frost1: #88c0d0;
   --frost2: #81a1c1;
   --frost3: #f1ced0;
@@ -853,12 +853,12 @@ COLORS
 ----------------------------------------------------------------*/
 
   --red: #ff5582;
-  --pink: #f2bab3;
-  --fairpink: #eed3d3;
+  --pink: #f2ecb3;
+  --fairpink: #eeebd3;
   --yellow: #fff3a3;
   --linen: #fcecec;
-  --paleblue: #bdd2ff;
-  --purple: #d2b3ff;
+  --paleblue: #f9ffbd;
+  --purple: #fffbb3;
   --palegreen: #a1ffa1;
   --dusk: #474e5e;
   --ash: #232630;
@@ -873,23 +873,23 @@ COLORS
 BOLD COLORS
 ----------------------------------------------------------------*/
 
-  --boldpink: #dc8888;
-  --boldpurple: #b290e2;
+  --boldpink: #dcdb88;
+  --boldpurple: #dee290;
   --boldred: #ff5555;
   --boldyellow: #ffff00;
-  --boldorange: #ffb86c;
+  --boldorange: #fff86c;
   --boldgreen: #85ffa4;
   --boldblue: #99e7ff;
-  --boldlightpink: 310, 100%, 84%;
+  --boldlightpink: 56, 91%, 66%;
 
   /*----------------------------------------------------------------
 PASTEL COLORS
 ----------------------------------------------------------------*/
   --pastelyellow: #fcf4c9;
   --pastelcoral: #ffe896;
-  --pastelpink: #fbcdcd;
-  --pastelpurple: #e8befa;
-  --pastelperiwinkle: #abbfff;
+  --pastelpink: #fbeccd;
+  --pastelpurple: #f6fabe;
+  --pastelperiwinkle: #f5ffab;
   --pastelgreen: #bbf3c0;
 }
 
@@ -2481,7 +2481,7 @@ strong,
 }
 
 blockquote p {
-  color: #ddd271;
+  color: rgb(150, 150, 150);
 }
 
 blockquote p:first-child {
@@ -2490,10 +2490,10 @@ blockquote p:first-child {
 
 .markdown-preview-view blockquote {
   line-height: var(--editor-line-height);
-  color: #ddd271;
+  color: rgb(200, 200, 200);
   font-family: var(--default-font);
   border: none;
-  border-left: 0.3rem solid #ddd271;
+  border-left: 0.3rem solid rgb(200, 200, 200);
   background-color: var(--blockquote-bg);
   border-radius: 0px;
   margin: 1rem 0rem 1rem 0rem;
