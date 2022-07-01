@@ -1960,25 +1960,34 @@ HEADINGS
   font-weight: inherit;
 }
 
-.cm-s-obsidian .cm-header.cm-header-1,
-.cm-s-obsidian .cm-header.cm-header-2,
-.cm-s-obsidian .cm-header.cm-header-3,
-.cm-s-obsidian .cm-header.cm-header-4,
-.cm-s-obsidian .cm-header.cm-header-5,
-.cm-s-obsidian .cm-header.cm-header-6 {
-  font-family: var(--header-font-ed);
+.cm-s-obsidian .cm-header.cm-header-1 {
+  font-family: var(--header-font-pre);
   color: inherit;
   font-style: inherit;
   line-height: inherit;
 }
 
-.markdown-preview-view h1,
+.cm-s-obsidian .cm-header.cm-header-2,
+.cm-s-obsidian .cm-header.cm-header-3,
+.cm-s-obsidian .cm-header.cm-header-4,
+.cm-s-obsidian .cm-header.cm-header-5,
+.cm-s-obsidian .cm-header.cm-header-6 {
+  font-family: var(--default-font);
+  color: inherit;
+  font-style: inherit;
+  line-height: inherit;
+}
+
+.markdown-preview-view h1 {
+  font-family: var(--header-font-pre);
+}
+
 .markdown-preview-view h2,
 .markdown-preview-view h3,
 .markdown-preview-view h4,
 .markdown-preview-view h5,
 .markdown-preview-view h6 {
-  font-family: var(--header-font-pre);
+  font-family: var(--default-font);
 }
 
 body.is-mobile .HyperMD-header-1,
