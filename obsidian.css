@@ -799,11 +799,11 @@ settings:
 
   --strong-weight: var(--bold-weight);
 
-  --s-header-1-pre: 3.98em;
-  --s-header-2-pre: 2.88em;
-  --s-header-3-pre: 1.68em;
-  --s-header-4-pre: 1.48em;
-  --s-header-5-pre: 1.28em;
+  --s-header-1-pre: 2.18em;
+  --s-header-2-pre: 1.48em;
+  --s-header-3-pre: 1.38em;
+  --s-header-4-pre: 1.28em;
+  --s-header-5-pre: 1.18em;
   --s-header-6-pre: 1.08em;
   --s-header-1-ed: 1.98rem;
   --s-header-2-ed: 1.88rem;
